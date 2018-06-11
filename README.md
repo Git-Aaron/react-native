@@ -96,10 +96,10 @@ xcrun: error: SDK "iphoneos" cannot be located
 xcrun: error: SDK "iphoneos" cannot be located
 xcrun: error: SDK "iphoneos" cannot be located
 xcrun: error: unable to lookup item 'Path' in SDK 'iphoneos'
-/Users/liwei785/Library/Caches/CocoaPods/Pods/External/glog/f09d6cdb8398b4922e87d51f5245de7e-1de0b/missing: Unknown `--is-lightweight' option
-Try `/Users/liwei785/Library/Caches/CocoaPods/Pods/External/glog/f09d6cdb8398b4922e87d51f5245de7e-1de0b/missing --help' for more information
+/Users/yourname/Library/Caches/CocoaPods/Pods/External/glog/f09d6cdb8398b4922e87d51f5245de7e-1de0b/missing: Unknown `--is-lightweight' option
+Try `/Users/yourname/Library/Caches/CocoaPods/Pods/External/glog/f09d6cdb8398b4922e87d51f5245de7e-1de0b/missing --help' for more information
 configure: WARNING: 'missing' script is too old or missing
-configure: error: in `/Users/liwei785/Library/Caches/CocoaPods/Pods/External/glog/f09d6cdb8398b4922e87d51f5245de7e-1de0b':
+configure: error: in `/Users/yourname/Library/Caches/CocoaPods/Pods/External/glog/f09d6cdb8398b4922e87d51f5245de7e-1de0b':
 configure: error: C compiler cannot create executables
 See `config.log' for more details
 该问题主要是SDK默认路径错误所导致的，可以通过sudo xcode-select --switch  /Applications/Xcode.app/Contents/Developer/
